@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.poe.secretapi.entity;
+package com.poe.demoapi.entity;
 
 
 public class Person {
@@ -13,8 +13,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(Long id, String firstName, String lastName) {
-        this.id = id;
+    public Person(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
