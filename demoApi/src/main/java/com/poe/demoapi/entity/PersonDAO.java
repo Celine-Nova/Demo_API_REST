@@ -12,10 +12,11 @@ public class PersonDAO {
     private long nextId = 1;
     
 
-    public void addPerson(Person newPerson){
+    public Person addPerson(Person newPerson){
         newPerson.setId(nextId);
         nextId++;
         persons.add(newPerson);
+        return newPerson;
     }
 
     public ArrayList<Person> getPersons() {
